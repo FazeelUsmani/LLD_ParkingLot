@@ -51,4 +51,8 @@ public class ParkingTicket {
     public void setTimeStamp(LocalDateTime timeStamp) {
         this.timeStamp = timeStamp;
     }
+
+    public int getParkingHours() {
+        return 2;
+    }
 }

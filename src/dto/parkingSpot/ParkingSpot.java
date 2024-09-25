@@ -7,8 +7,9 @@ public abstract class ParkingSpot {
     private int id;
     private boolean isFree;
     private int floor;
-    private int amount;
+    protected int amount;
 
+    public ParkingSpot(){}
 
     public ParkingSpot(int floor, int amount) {
         this.id = x.incrementAndGet();
@@ -48,4 +49,6 @@ public abstract class ParkingSpot {
     public void setAmount(int amount) {
         this.amount = amount;
     }
+
+    public abstract int cost(int parkingHours);
 }

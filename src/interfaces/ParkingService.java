@@ -3,10 +3,11 @@ package interfaces;
 import dto.ParkingTicket;
 import dto.vehicle.Vehicle;
 import exceptions.InvalidTicketException;
+import exceptions.SpotNotFoundException;
 
 public interface ParkingService {
 
-    ParkingTicket entry(Vehicle vehicle);
+    ParkingTicket entry(Vehicle vehicle) throws SpotNotFoundException;
 
-    void exit(ParkingTicket parkingTicket, Vehicle vehicle) throws InvalidTicketException;
+    int exit(ParkingTicket parkingTicket, Vehicle vehicle) throws InvalidTicketException;
 }

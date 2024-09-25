@@ -4,32 +4,83 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e1976aa9-4ff1-43d6-8114-3af658712b1f" name="Changes" comment="" />
+    <list default="true" id="e1976aa9-4ff1-43d6-8114-3af658712b1f" name="Changes" comment="Initial Commit">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dto/ParkingEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dto/parkingSpot/spotDecorator/Electric.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dto/parkingSpot/spotDecorator/SpotDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dto/parkingSpot/spotDecorator/Wash.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/enums/ParkingEventType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interfaces/Observer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dto/ParkingLot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dto/ParkingLot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dto/ParkingTicket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dto/ParkingTicket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dto/parkingSpot/Compact.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dto/parkingSpot/Compact.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dto/parkingSpot/Large.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dto/parkingSpot/Large.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dto/parkingSpot/Mini.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dto/parkingSpot/Mini.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dto/parkingSpot/ParkingSpot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dto/parkingSpot/ParkingSpot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interfaces/DisplayService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interfaces/DisplayService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interfaces/ParkingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interfaces/ParkingService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/DisplayServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/DisplayServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/ParkingServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/ParkingServiceImpl.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "FazeelUsmani"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/FazeelUsmani/LLD_ParkingLot.git",
+    "accountId": "31cf2844-f733-4880-ac96-96a3da1b3477"
+  }
+}]]></component>
   <component name="MacroExpansionManager">
     <option name="directoryName" value="0b19w7da" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2mWIrSHVKxrHM3RlMT78f5YCcLj" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "org.rust.cargo.project.model.impl.CargoExternalSystemProjectAware.subscribe.first.balloon": "",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -49,7 +100,24 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1727186107399</updated>
+      <workItem from="1727186108438" duration="18283000" />
     </task>
+    <task id="LOCAL-00001" summary="Initial Commit">
+      <option name="closed" value="true" />
+      <created>1727273502975</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1727273502975</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit" />
   </component>
 </project>
